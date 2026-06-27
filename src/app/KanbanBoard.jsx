@@ -18,7 +18,7 @@ export default function KanbanBoard({ projects, setProjects, onCardClick }) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
       {COLUMNS.map((column) => (
-        <div key={column} className="bg-gray-100 p-4 rounded-xl min-h-[520px] border border-gray-200 shadow-inner">
+        <div key={column} className="bg-gray-100 p-4 rounded-xl min-h-130 border border-gray-200 shadow-inner">
           
           <div className="flex justify-between items-center mb-4 border-b border-gray-200 pb-2">
             <h3 className="font-bold text-gray-700 tracking-wide text-sm uppercase">{column}</h3>

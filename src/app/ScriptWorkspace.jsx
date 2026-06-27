@@ -50,7 +50,7 @@ export default function ScriptWorkspace({ project, onClose, onSave }) {
       <div className="flex-1 p-6 flex flex-col space-y-5 overflow-y-auto">
         
         {/* SCRIPT AREA */}
-        <div className="flex flex-col flex-1 min-h-[200px]">
+        <div className="flex flex-col flex-1 min-h-50">
           <label className="block text-sm font-bold text-gray-600 mb-2">Video Script / Hook / Captions:</label>
           <textarea
             value={scriptText}
